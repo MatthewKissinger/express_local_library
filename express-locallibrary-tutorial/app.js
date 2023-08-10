@@ -4,6 +4,10 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
+// TODO
+// Left at Express Tutorial Part 4: 
+// BookInstance controller
+
 // Import Routes
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
